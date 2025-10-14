@@ -5,7 +5,8 @@ class DibujosComplejos extends Component{
         for (var i = 1; i <= 7; i++){
             var numero = parseInt(Math.random()*100) + 1;
             //MEDIANTE push VAMOS AÑADIENDO ELEMENTOS A LA LISTA
-            lista.push(<li>{numero}</li>)
+            //cada elemnto tiene que llevar una key unica interna para react
+            lista.push(<li key={i}>{numero}</li>)
         }
         return lista;
     }

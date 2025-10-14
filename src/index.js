@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import Contador from './Components/Contador'
 import reportWebVitals from './reportWebVitals';
-import DibujosComplejosRender from './Components/DibujosComplejosRender';
+// import DibujosComplejosRender from './Components/DibujosComplejosRender';
+import PadreDeportes from './Components/PadreDeportes';
 // import DibujosComplejos from './Components/DibujosComplejos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,7 +13,8 @@ root.render(
     {/* <Contador inicio="4"/>
     <Contador inicio="9"/> */}
     {/* <DibujosComplejos/> */}
-    <DibujosComplejosRender/>
+    {/* <DibujosComplejosRender/> */}
+    <PadreDeportes/>
   </React.StrictMode>
 );
 

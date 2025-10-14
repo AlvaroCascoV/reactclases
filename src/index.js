@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Components/App/App';
+import Contador from './Components/Contador'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Contador inicio="4"/>
+    <Contador inicio="9"/>
   </React.StrictMode>
 );
 

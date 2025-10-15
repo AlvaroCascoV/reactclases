@@ -4,8 +4,9 @@ import './index.css';
 // import Contador from './Components/Contador'
 import reportWebVitals from './reportWebVitals';
 // import DibujosComplejosRender from './Components/DibujosComplejosRender';
-import PadreDeportes from './Components/PadreDeportes';
+// import PadreDeportes from './Components/PadreDeportes';
 // import DibujosComplejos from './Components/DibujosComplejos';
+import PadreNumeros from './Components/PadreNumeros';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     <Contador inicio="9"/> */}
     {/* <DibujosComplejos/> */}
     {/* <DibujosComplejosRender/> */}
-    <PadreDeportes/>
+    {/* <PadreDeportes/> */}
+    <PadreNumeros/>
   </React.StrictMode>
 );
 
